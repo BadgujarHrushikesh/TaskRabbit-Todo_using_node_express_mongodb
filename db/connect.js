@@ -12,7 +12,4 @@ db.on('error', function (err) {
 db.once('open',function(){
     const currentDate = new Date().toLocaleString();
     console.log("Succesfully connected to the database " + currentDate);
-    
-    
-    
 })
